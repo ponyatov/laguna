@@ -1,0 +1,15 @@
+
+{
+	"short_name": "lagmodule:laguna",
+	"name": "Laguna: distributed guest OS",
+	"theme_color": "#222",
+	"background_color": "#222",
+	"display": "standalone",
+	"icons": [
+		{
+			"src": "/static/logo.png",
+			"type": "image/png",
+			"sizes": "256x256"
+		}
+	]
+}

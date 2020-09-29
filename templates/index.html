@@ -1,0 +1,29 @@
+
+<!-- powered by metaL: https://github.com/ponyatov/metaL/wiki/metaL-manifest -->
+<!-- \ <section:top> -->
+{% extends 'all.html' %}
+{% block style %}
+*                             {
+								color:white !important;
+}
+.window                       {
+								width:320px; height:240px;
+								min-width:16px; min-height:16px;
+								max-width:640px; max-height:480px;
+								background:#024 !important; border: 2px solid white;
+								resize: both; move: both; overflow: hidden;
+								border-radius: 7px;
+}
+.window *                     {
+                                display: inline-block; width: auto;
+}
+{% endblock %}
+<!-- / <section:top> -->
+<!-- \ <section:mid> -->
+{% block body %}
+<!-- \ <section:body> -->
+<div class="window"><pre>
+&ltwindow:browser&gt #e7eafa55 @7fc023887128</pre></div>
+<!-- / <section:body> -->
+{% endblock %}
+<!-- / <section:mid> -->
